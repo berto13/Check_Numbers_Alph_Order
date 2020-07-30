@@ -1,16 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 #Import library to change number from integer to string
 import inflect
 p = inflect.engine()
-
-
-# In[20]:
-
 
 #create arrays for matches
 match_asc_order = []
@@ -41,10 +31,3 @@ print("Numbers with letter sorted in ascending alphabetical order:")
 print(match_asc_order)
 print("Numbers with letter sorted in descending alphabetical order:")
 print(match_desc_order)
-
-
-# In[ ]:
-
-
-
-
